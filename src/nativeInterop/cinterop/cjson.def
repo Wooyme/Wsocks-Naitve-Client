@@ -1,0 +1,4 @@
+headers = /usr/local/include/cjson/cJSON.h
+package=cjson
+staticLibraries = libcjson.a
+libraryPaths = /home/wooyme/Projects/cJSON/build

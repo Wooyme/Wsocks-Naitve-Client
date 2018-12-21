@@ -1,0 +1,4 @@
+headers = /usr/include/mongoose.h
+package = mongoose
+staticLibraries = mongoose.a
+libraryPaths = /home/wooyme/Projects/mongoose

@@ -1,0 +1,4 @@
+headers = /usr/include/openssl/evp.h /usr/include/openssl/err.h /usr/include/openssl/conf.h /usr/include/openssl/md5.h
+package=openssl
+compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu
+linkerOpts.linux = -lssl -lcrypto -static

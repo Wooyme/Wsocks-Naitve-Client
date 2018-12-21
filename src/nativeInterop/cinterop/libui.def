@@ -1,0 +1,4 @@
+headers=/usr/include/ui.h
+package=libui
+staticLibraries = libui.a
+libraryPaths = /home/wooyme/Projects/libui/build/out
