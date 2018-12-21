@@ -1,0 +1,13 @@
+DIR="$(dirname "$(readlink -f "$0")")"
+WSOCKS="$HOME/.wsocks2"
+mkdir $WSOCKS
+cd $DIR
+if [ ! -e "$WSOCKS/gfw.lst" ];then
+	cp gfw.lst "$WSOCKS/gfw.lst"
+fi
+if [ ! -e "$WSOCKS/wsocks.png" ];then
+	cp wsocks.png "$WSOCKS/wsocks.png"
+fi
+nohup ./client >/dev/null 2>&1 &
+exit 0
+
